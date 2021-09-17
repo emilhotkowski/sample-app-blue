@@ -14,7 +14,8 @@ const port = process.env.PORT ?? 5001
 const app = express()
 
 // Not the best secret management but I lack the time for it :)
-const uri = "mongodb+srv://m001-student:m001-mongodb-basics@sandbox.qptih.mongodb.net/blueCallDb?retryWrites=true&w=majority";
+// This cluster doesn't exist
+const uri = "mongodb+srv://m001-student:password@sandbox.qptih.mongodb.net/blueCallDb?retryWrites=true&w=majority";
 mongoose.connect(uri);
 mongoose.connection.on('connected', () => {
   logger.info("connected to mongodb");

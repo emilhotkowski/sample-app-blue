@@ -7,7 +7,7 @@ https://www.npmjs.com/package/yup
 
 # Design
 
-![design](https://github.com/emilhotkowski/sample-app-blue/tree/main/images/blue.png)
+![design](https://raw.githubusercontent.com/emilhotkowski/sample-app-blue/main/images/blue.png)
 
 - _Authorization module_ is responsible for authentication, authorization, registration and anything related to user management.
 - _User module_ is responsible for searching patients, their medical history, adding new diagnosis etc. (Could be easily rename to Patient module)
